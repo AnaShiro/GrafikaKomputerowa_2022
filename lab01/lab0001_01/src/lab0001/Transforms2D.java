@@ -38,11 +38,11 @@ public class Transforms2D extends JPanel {
          				break;
          			case 6:
          				g2.shear(0, -0.5);
-         				g2.rotate(Math.PI / 2);
+         				g2.rotate(1.75);
          				break;
          			case 7:
          				g2.scale(0.5, 1);
-         				g2.rotate(Math.PI);
+         				g2.rotate(3.5);
          				break;
          			case 8:
          				g2.translate(0, 200);
@@ -50,7 +50,7 @@ public class Transforms2D extends JPanel {
          				g2.rotate(Math.toRadians(30));
          				break;
          			case 9:
-         				g2.rotate(Math.PI);
+         				g2.rotate(3.5);
          				g2.shear(0, 0.25);
          				g2.translate(-100, 0);
          				break;
@@ -66,8 +66,8 @@ public class Transforms2D extends JPanel {
          				poly.addPoint((int) posX0, (int) posY0);
          			
          			for (int i = 1; i < anglesCount; i++) {
-         				double posX = (150 * Math.cos(i * 2 * Math.PI / anglesCount));
-         				double posY = (150 * Math.sin(i * 2 * Math.PI / anglesCount));
+         				double posX = (150 * Math.cos(i * 2 * 3.5 / anglesCount));
+         				double posY = (150 * Math.sin(i * 2 * 3.5 / anglesCount));
          				poly.addPoint((int) posX, (int) posY);
          			}
   			
