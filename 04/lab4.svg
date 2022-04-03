@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+width="600px" height="600px"
+viewBox="0 0 4 4"
+preserveAspectRatio="xMidYMid">
+<defs>
+<g id ="polygon" fill="white" stroke-width="0.01" stroke="black">
+<!--<animateTransform attributeName="transform" type="rotate" from="0 0.6 1.25" to="360 0.6 1.25" dur="10s" repeatCount="indefinite" />-->
+<polygon points ="
+0.55, 0.75
+0.45, 1
+0.3, 1.1
+0, 1.15
+0.1, 1.4
+0.4, 1.65
+0.8, 1.75
+1, 1.5
+1.1, 1.35
+1, 1" />
+<!---->
+
+<!--<line x1="0.13" y1="1.5" x2="1.86" y2="0.5" />-->
+
+</g>
+<g id ="triangle" stroke-width="0.01" stroke="black">
+<polygon points="2,3.5 2.4,0.55 3,3.5"/>
+</g>
+<g id="line" stroke-width="0.2" stroke="red" >
+<line x1="0.90" y1="0.95"  x2="5.60" y2="1.95" />
+</g>
+</defs>
+<!--1-->
+<use xlink:href="#polygon" transform="scale(0.2,0.2) translate(12.8,0.2)" />
+<use xlink:href="#polygon" transform="scale(0.2,0.2) translate(17.5,1.2)" />
+<use xlink:href="#line" transform="scale(0.2,0.2) translate(12.5,0.5)" />
+<use xlink:href="#triangle" fill="green" transform="scale(0.2,0.2) translate(13.3,1.4)" /> 
+
+<!--2-->
+<use xlink:href="#polygon" transform="scale(0.3,0.3) translate(0.9,0.2)" />
+<use xlink:href="#polygon" transform="scale(0.3,0.3) translate(5.5,1.2)" />
+<use xlink:href="#line" transform="scale(0.3,0.3) translate(0.5,0.5)" />
+<use xlink:href="#triangle" fill="purple" transform="scale(0.3,0.3) translate(1.3,1.4)" /> 
+
+<!--3-->
+<use xlink:href="#polygon" transform="scale(0.35,0.35) translate(4.3,3.2)" />
+<use xlink:href="#polygon" transform="scale(0.35,0.35) translate(9,4.2)" />
+<use xlink:href="#line" transform="scale(0.35,0.35) translate(4,3.5)" />
+<use xlink:href="#triangle" fill="blue" transform="scale(0.35,0.35) translate(4.8,4.4)" />
+
+</svg>
